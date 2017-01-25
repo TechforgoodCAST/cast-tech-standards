@@ -1,0 +1,8 @@
+site_name: Cast Tech Standards
+theme: readthedocs
+site_author: CAST tech team
+markdown_extensions:
+  - tables
+  - fenced_code
+  - footnotes
+  - toc
