@@ -1,0 +1,159 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "CAST tech standards\n\n\nmkdocs guide\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Home"
+        },
+        {
+            "location": "/#cast-tech-standards",
+            "text": "",
+            "title": "CAST tech standards"
+        },
+        {
+            "location": "/#mkdocs-guide",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "mkdocs guide"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/architecture/",
+            "text": "Architecture, data model, and technical debt",
+            "title": "Architecture"
+        },
+        {
+            "location": "/architecture/#architecture-data-model-and-technical-debt",
+            "text": "",
+            "title": "Architecture, data model, and technical debt"
+        },
+        {
+            "location": "/contributing/",
+            "text": "Contributing to tech for good",
+            "title": "Contributing"
+        },
+        {
+            "location": "/contributing/#contributing-to-tech-for-good",
+            "text": "",
+            "title": "Contributing to tech for good"
+        },
+        {
+            "location": "/devops/",
+            "text": "Dev Ops",
+            "title": "Devops"
+        },
+        {
+            "location": "/devops/#dev-ops",
+            "text": "",
+            "title": "Dev Ops"
+        },
+        {
+            "location": "/documentation/",
+            "text": "Documentation",
+            "title": "Documentation"
+        },
+        {
+            "location": "/documentation/#documentation",
+            "text": "",
+            "title": "Documentation"
+        },
+        {
+            "location": "/issues/",
+            "text": "Issues",
+            "title": "Issues"
+        },
+        {
+            "location": "/issues/#issues",
+            "text": "",
+            "title": "Issues"
+        },
+        {
+            "location": "/learning-and-sharing/",
+            "text": "Learning, sharing, events",
+            "title": "Learning and sharing"
+        },
+        {
+            "location": "/learning-and-sharing/#learning-sharing-events",
+            "text": "",
+            "title": "Learning, sharing, events"
+        },
+        {
+            "location": "/values/",
+            "text": "Our values",
+            "title": "Values"
+        },
+        {
+            "location": "/values/#our-values",
+            "text": "",
+            "title": "Our values"
+        },
+        {
+            "location": "/coding/code-review/",
+            "text": "Code reviews",
+            "title": "Code review"
+        },
+        {
+            "location": "/coding/code-review/#code-reviews",
+            "text": "",
+            "title": "Code reviews"
+        },
+        {
+            "location": "/coding/commit/",
+            "text": "Commit guide\n\n\nbranch use, pull requests",
+            "title": "Commit"
+        },
+        {
+            "location": "/coding/commit/#commit-guide",
+            "text": "branch use, pull requests",
+            "title": "Commit guide"
+        },
+        {
+            "location": "/coding/pairing/",
+            "text": "Pairing",
+            "title": "Pairing"
+        },
+        {
+            "location": "/coding/pairing/#pairing",
+            "text": "",
+            "title": "Pairing"
+        },
+        {
+            "location": "/coding/style-guide/",
+            "text": "Style guide",
+            "title": "Style guide"
+        },
+        {
+            "location": "/coding/style-guide/#style-guide",
+            "text": "",
+            "title": "Style guide"
+        },
+        {
+            "location": "/coding/testing/",
+            "text": "Testing",
+            "title": "Testing"
+        },
+        {
+            "location": "/coding/testing/#testing",
+            "text": "",
+            "title": "Testing"
+        },
+        {
+            "location": "/coding/tooling/",
+            "text": "Tooling",
+            "title": "Tooling"
+        },
+        {
+            "location": "/coding/tooling/#tooling",
+            "text": "",
+            "title": "Tooling"
+        }
+    ]
+}
