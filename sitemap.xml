@@ -11,14 +11,6 @@
 
     
     <url>
-     <loc>/architecture/</loc>
-     <lastmod>2017-01-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/contributing/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
@@ -26,79 +18,79 @@
     
 
     
+        
     <url>
-     <loc>/devops/</loc>
+     <loc>/about/guiding-principles/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/documentation/</loc>
+     <loc>/about/learning-and-sharing/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>/issues/</loc>
-     <lastmod>2017-01-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/learning-and-sharing/</loc>
-     <lastmod>2017-01-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/values/</loc>
-     <lastmod>2017-01-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
     
         
     <url>
-     <loc>/coding/code-review/</loc>
+     <loc>/development/architecture/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/coding/commit/</loc>
+     <loc>/development/code-review/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/coding/pairing/</loc>
+     <loc>/development/commit/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/coding/style-guide/</loc>
+     <loc>/development/devops/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/coding/testing/</loc>
+     <loc>/development/documentation/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/coding/tooling/</loc>
+     <loc>/development/issues/</loc>
+     <lastmod>2017-01-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/development/pairing/</loc>
+     <lastmod>2017-01-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/development/style-guide/</loc>
+     <lastmod>2017-01-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/development/testing/</loc>
+     <lastmod>2017-01-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/development/tooling/</loc>
      <lastmod>2017-01-29</lastmod>
      <changefreq>daily</changefreq>
     </url>

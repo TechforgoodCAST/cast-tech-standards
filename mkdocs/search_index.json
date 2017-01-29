@@ -1,158 +1,143 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "CAST tech standards\n\n\nmkdocs guide\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "location": "/", 
+            "text": "CAST Tech Standards\n\n\nThese guides outline our approach to designing and developing impactful tech for good at \nCAST\n. Underpinning all of this are our \nguiding principles\n.\n\n\nThe \naim\n of these guides is to pool our collective knowledge, create a culture of \nlearning and sharing\n, and ultimately improve the way we design and develop tech for good at CAST.\n\n\nThe \noutcome\n of which we hope will be a valuable resource for the tech for good sector.", 
             "title": "Home"
-        },
+        }, 
         {
-            "location": "/#cast-tech-standards",
-            "text": "",
-            "title": "CAST tech standards"
-        },
+            "location": "/#cast-tech-standards", 
+            "text": "These guides outline our approach to designing and developing impactful tech for good at  CAST . Underpinning all of this are our  guiding principles .  The  aim  of these guides is to pool our collective knowledge, create a culture of  learning and sharing , and ultimately improve the way we design and develop tech for good at CAST.  The  outcome  of which we hope will be a valuable resource for the tech for good sector.", 
+            "title": "CAST Tech Standards"
+        }, 
         {
-            "location": "/#mkdocs-guide",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "mkdocs guide"
-        },
-        {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
-        },
-        {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
-        },
-        {
-            "location": "/architecture/",
-            "text": "Architecture, data model, and technical debt",
-            "title": "Architecture"
-        },
-        {
-            "location": "/architecture/#architecture-data-model-and-technical-debt",
-            "text": "",
-            "title": "Architecture, data model, and technical debt"
-        },
-        {
-            "location": "/contributing/",
-            "text": "Contributing to tech for good",
+            "location": "/contributing/", 
+            "text": "Contributing to tech for good", 
             "title": "Contributing"
-        },
+        }, 
         {
-            "location": "/contributing/#contributing-to-tech-for-good",
-            "text": "",
+            "location": "/contributing/#contributing-to-tech-for-good", 
+            "text": "", 
             "title": "Contributing to tech for good"
-        },
+        }, 
         {
-            "location": "/devops/",
-            "text": "Dev Ops",
-            "title": "Devops"
-        },
+            "location": "/about/guiding-principles/", 
+            "text": "Guiding principles\n\n\nEverything we do at CAST aims to be:\n\n\n\n\nAction-oriented\n\n\nAmplifying a network effect\n\n\nCollaborative\n\n\nDriving change\n\n\nOpen\n\n\nTest-driven\n\n\n\n\nIt's also important that we are:\n\n\n\n\nBrave\n\n\nCreative\n\n\nPositive/fun\n\n\nWorking fast\n\n\nWorking smart/lean", 
+            "title": "Guiding principles"
+        }, 
         {
-            "location": "/devops/#dev-ops",
-            "text": "",
-            "title": "Dev Ops"
-        },
+            "location": "/about/guiding-principles/#guiding-principles", 
+            "text": "Everything we do at CAST aims to be:   Action-oriented  Amplifying a network effect  Collaborative  Driving change  Open  Test-driven   It's also important that we are:   Brave  Creative  Positive/fun  Working fast  Working smart/lean", 
+            "title": "Guiding principles"
+        }, 
         {
-            "location": "/documentation/",
-            "text": "Documentation",
-            "title": "Documentation"
-        },
-        {
-            "location": "/documentation/#documentation",
-            "text": "",
-            "title": "Documentation"
-        },
-        {
-            "location": "/issues/",
-            "text": "Issues",
-            "title": "Issues"
-        },
-        {
-            "location": "/issues/#issues",
-            "text": "",
-            "title": "Issues"
-        },
-        {
-            "location": "/learning-and-sharing/",
-            "text": "Learning, sharing, events",
+            "location": "/about/learning-and-sharing/", 
+            "text": "Learning and sharing\n\n\nWe strive to uphold our \nguiding principles\n and \nbe humble\n in the way we learn and share. Meaning we acknowledge that we might be experts in certain areas and novices in others.\n\n\nThis approach allows us to foster an environment of continual learning and sharing of knowledge amongst our team and with the wider tech for good movement.", 
             "title": "Learning and sharing"
-        },
+        }, 
         {
-            "location": "/learning-and-sharing/#learning-sharing-events",
-            "text": "",
-            "title": "Learning, sharing, events"
-        },
+            "location": "/about/learning-and-sharing/#learning-and-sharing", 
+            "text": "We strive to uphold our  guiding principles  and  be humble  in the way we learn and share. Meaning we acknowledge that we might be experts in certain areas and novices in others.  This approach allows us to foster an environment of continual learning and sharing of knowledge amongst our team and with the wider tech for good movement.", 
+            "title": "Learning and sharing"
+        }, 
         {
-            "location": "/values/",
-            "text": "Our values",
-            "title": "Values"
-        },
+            "location": "/development/architecture/", 
+            "text": "Architecture, data model, and technical debt", 
+            "title": "Architecture"
+        }, 
         {
-            "location": "/values/#our-values",
-            "text": "",
-            "title": "Our values"
-        },
+            "location": "/development/architecture/#architecture-data-model-and-technical-debt", 
+            "text": "", 
+            "title": "Architecture, data model, and technical debt"
+        }, 
         {
-            "location": "/coding/code-review/",
-            "text": "Code reviews",
+            "location": "/development/code-review/", 
+            "text": "Code reviews", 
             "title": "Code review"
-        },
+        }, 
         {
-            "location": "/coding/code-review/#code-reviews",
-            "text": "",
+            "location": "/development/code-review/#code-reviews", 
+            "text": "", 
             "title": "Code reviews"
-        },
+        }, 
         {
-            "location": "/coding/commit/",
-            "text": "Commit guide\n\n\nbranch use, pull requests",
+            "location": "/development/commit/", 
+            "text": "Commit guide\n\n\nbranch use, pull requests", 
             "title": "Commit"
-        },
+        }, 
         {
-            "location": "/coding/commit/#commit-guide",
-            "text": "branch use, pull requests",
+            "location": "/development/commit/#commit-guide", 
+            "text": "branch use, pull requests", 
             "title": "Commit guide"
-        },
+        }, 
         {
-            "location": "/coding/pairing/",
-            "text": "Pairing",
+            "location": "/development/devops/", 
+            "text": "Dev Ops", 
+            "title": "Devops"
+        }, 
+        {
+            "location": "/development/devops/#dev-ops", 
+            "text": "", 
+            "title": "Dev Ops"
+        }, 
+        {
+            "location": "/development/documentation/", 
+            "text": "Documentation", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/development/documentation/#documentation", 
+            "text": "", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/development/issues/", 
+            "text": "Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/development/issues/#issues", 
+            "text": "", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/development/pairing/", 
+            "text": "Pairing", 
             "title": "Pairing"
-        },
+        }, 
         {
-            "location": "/coding/pairing/#pairing",
-            "text": "",
+            "location": "/development/pairing/#pairing", 
+            "text": "", 
             "title": "Pairing"
-        },
+        }, 
         {
-            "location": "/coding/style-guide/",
-            "text": "Style guide",
+            "location": "/development/style-guide/", 
+            "text": "Style guide", 
             "title": "Style guide"
-        },
+        }, 
         {
-            "location": "/coding/style-guide/#style-guide",
-            "text": "",
+            "location": "/development/style-guide/#style-guide", 
+            "text": "", 
             "title": "Style guide"
-        },
+        }, 
         {
-            "location": "/coding/testing/",
-            "text": "Testing",
+            "location": "/development/testing/", 
+            "text": "Testing", 
             "title": "Testing"
-        },
+        }, 
         {
-            "location": "/coding/testing/#testing",
-            "text": "",
+            "location": "/development/testing/#testing", 
+            "text": "", 
             "title": "Testing"
-        },
+        }, 
         {
-            "location": "/coding/tooling/",
-            "text": "Tooling",
+            "location": "/development/tooling/", 
+            "text": "Tooling", 
             "title": "Tooling"
-        },
+        }, 
         {
-            "location": "/coding/tooling/#tooling",
-            "text": "",
+            "location": "/development/tooling/#tooling", 
+            "text": "", 
             "title": "Tooling"
         }
     ]
