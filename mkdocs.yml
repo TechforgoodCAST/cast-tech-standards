@@ -1,5 +1,5 @@
 site_name: Cast Tech Standards
-theme: readthedocs
+theme: material
 site_author: CAST tech team
 markdown_extensions:
   - tables
