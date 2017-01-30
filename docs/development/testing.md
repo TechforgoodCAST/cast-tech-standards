@@ -43,6 +43,8 @@ Unit tests are an ideal way to gradually build complex functionality out of smal
 End to end tests (also known as integration tests) should be used to help validate that complete functionality of a piece of software behaves as we want it to
 
 + E2e tests allow a more "user centred" perspective (the test is checking what the user should "see" at each point)
++ A great way of thinking about how to write e2e test is to consider how the user will "behave" at each point
++ In this sense the tests should be *"behaviour driven"* (behaviour driven development - BDD)
 + E2e tests can be used as "acceptance tests" for user stories (i.e. they validate that the user can complete a task with our software)
 
 
@@ -50,6 +52,7 @@ End to end tests (also known as integration tests) should be used to help valida
 
 + [dwyl learn tdd](https://github.com/dwyl/learn-tdd)
 + [5 common misconceptions about test driven development and unit tests](https://medium.com/javascript-scene/5-common-misconceptions-about-tdd-unit-tests-863d5beb3ce9#.8s3ciqmio)
++ [behaviour driven development](https://www.agilealliance.org/glossary/bdd/)
 + [when tdd doesn't work](https://8thlight.com/blog/uncle-bob/2014/04/30/When-tdd-does-not-work.html)
 + [acceptance test driven development](https://www.agilealliance.org/glossary/atdd/)
 + [dwyl learn nightwatch](https://github.com/dwyl/learn-nightwatch)
