@@ -47,6 +47,21 @@ End to end tests (also known as integration tests) should be used to help valida
 + In this sense the tests should be *"behaviour driven"* (behaviour driven development - BDD)
 + E2e tests can be used as "acceptance tests" for user stories (i.e. they validate that the user can complete a task with our software)
 
+```rb
+# an example of an e2e test in Ruby
+
+scenario 'When I forget my password,
+          I want to be able to reset it,
+          so I can access my account' do
+  helper.request_reset
+  expect(ActionMailer::Base.deliveries.last.subject)
+    .to eq 'Reset your password - Beehive'
+  expect(current_path).to eq sign_in_path
+  helper.set_new_password
+  expect(current_path).to eq sign_in_path
+end
+```
+
 
 ### References
 
