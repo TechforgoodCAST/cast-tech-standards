@@ -21,6 +21,26 @@
             "title": "Contributing to tech for good"
         }, 
         {
+            "location": "/data-standards/", 
+            "text": "Data Standards\n\n\nData transport format\n\n\nFor a data table, the best format for transporting data is a CSV file (comma separated values). Try\nto avoid proprietary formats such as Excel.\n\n\nFollow good practice when creating CSVs, including:\n\n\n\n\none header row at the top of the file, with column names\n\n\nno blank lines between rows or columns, or before or after a header row\n\n\nseparated by commas, with text in quotes\n\n\ndates formatted as \"YYYY-MM-DD\"\n\n\n\n\nMore good tips can be found at \nhttp://www.clean-sheet.org/\n\n\nFor hierarchical data the best format is usually JSON.\n\n\nIdentifiers\n\n\nIt's usually preferable to store something using an identifier rather than its name. This helps when\nlinking data sets together. For example, it's much easier to link charity data when a charity number\nis used, rather than using the name which can be written in lots of different ways.\n\n\nWhere possible, use existing identifiers when working with data that could be linked elsewhere. Avoid\nusing proprietary identifiers (eg use Companies House rather than Dun and Bradstreet numbers for \ncompanies). Examples of this include:\n\n\n\n\nCompany Numbers from Companies House\n\n\nCharity Numbers from Charity Commission (/CCNI/OSCR)\n\n\nONS geographical codes for areas\n - \n    \nlist of names and codes\n\n\nISO codes for countries", 
+            "title": "Data standards"
+        }, 
+        {
+            "location": "/data-standards/#data-standards", 
+            "text": "", 
+            "title": "Data Standards"
+        }, 
+        {
+            "location": "/data-standards/#data-transport-format", 
+            "text": "For a data table, the best format for transporting data is a CSV file (comma separated values). Try\nto avoid proprietary formats such as Excel.  Follow good practice when creating CSVs, including:   one header row at the top of the file, with column names  no blank lines between rows or columns, or before or after a header row  separated by commas, with text in quotes  dates formatted as \"YYYY-MM-DD\"   More good tips can be found at  http://www.clean-sheet.org/  For hierarchical data the best format is usually JSON.", 
+            "title": "Data transport format"
+        }, 
+        {
+            "location": "/data-standards/#identifiers", 
+            "text": "It's usually preferable to store something using an identifier rather than its name. This helps when\nlinking data sets together. For example, it's much easier to link charity data when a charity number\nis used, rather than using the name which can be written in lots of different ways.  Where possible, use existing identifiers when working with data that could be linked elsewhere. Avoid\nusing proprietary identifiers (eg use Companies House rather than Dun and Bradstreet numbers for \ncompanies). Examples of this include:   Company Numbers from Companies House  Charity Numbers from Charity Commission (/CCNI/OSCR)  ONS geographical codes for areas  - \n     list of names and codes  ISO codes for countries", 
+            "title": "Identifiers"
+        }, 
+        {
             "location": "/about/guiding-principles/", 
             "text": "Guiding principles\n\n\nEverything we do at CAST aims to be:\n\n\n\n\nAction-oriented\n\n\nAmplifying a network effect\n\n\nCollaborative\n\n\nDriving change\n\n\nOpen\n\n\nTest-driven\n\n\n\n\nIt's also important that we are:\n\n\n\n\nBrave\n\n\nCreative\n\n\nPositive/fun\n\n\nWorking fast\n\n\nWorking smart/lean", 
             "title": "Guiding principles"
@@ -72,13 +92,38 @@
         }, 
         {
             "location": "/development/devops/", 
-            "text": "Dev Ops", 
+            "text": "DevOps\n\n\nAt CAST we are exponents of the Agile methodology for software development. DevOps is a set of practices that came about as a result of this methodology. The need to continuously iterate through versions of a product means that processes should be in place to make repeated releases as pain-free as possible. The easier this process is, the less resistance there will be to experiment and take risks. The following practices have to the goal of creating an environment where releasing reliable applications, faster and more frequently, can occur.\n\n\nContinuous Integration (CI)\n\n\n\n\nContinuous Integration is a software development process\nin which all development work is integrated at a predefined time\nor event and the resulting work is automatically tested and built.\nThe idea is that development errors are identified very early in the process.\n\n\n\n\nSetting up a CI server is the low hanging fruit when it comes to ensuring the quality of your releases. A CI server runs a pre-scheduled build of your system followed by running the test suite. The code is normally built and tested on every commit that is pushed to the \nmaster\n branch. This means that any breaking changes can be spotted as soon as possible.\n\n\nBenefits of CI\n\n\n\n\nBugs are detected as fast as possible. They are also easier to track down as breaking commit becomes obvious.\n\n\nFixing bugs becomes much easier. They are spotted early, therefore the related code will still be fresh in your mind.\n\n\nIf a bug emerges and the code needs to be reverted to a bug-free state not many changes will be lost.\n\n\n\n\nDeployment\n\n\nAutomating the deployment process brings huge benefits in our Agile world. As a general principle any process that can be automated, should be automated. This to reduce cognitive load on our brains and free up our energies for more creative tasks.\n\n\nBenefits of Automated deployment\n\n\n\n\nMore frequent releases due to decrease of errors in the deployment process.\n\n\nAnyone in a team can deploy the software. If only one person knows the deployment process then releases will be halted whenever they are away. Automated deployment means this knowledge is captured in the system, not in an individual's brain.\n\n\nMore time can be spent coding, less on monotonous admin style tasks.\n\n\n\n\nReferences\n\n\n\n\nWikidedia on CI\n\n\nDWYL guide on setting up Travis", 
             "title": "Devops"
         }, 
         {
-            "location": "/development/devops/#dev-ops", 
-            "text": "", 
-            "title": "Dev Ops"
+            "location": "/development/devops/#devops", 
+            "text": "At CAST we are exponents of the Agile methodology for software development. DevOps is a set of practices that came about as a result of this methodology. The need to continuously iterate through versions of a product means that processes should be in place to make repeated releases as pain-free as possible. The easier this process is, the less resistance there will be to experiment and take risks. The following practices have to the goal of creating an environment where releasing reliable applications, faster and more frequently, can occur.", 
+            "title": "DevOps"
+        }, 
+        {
+            "location": "/development/devops/#continuous-integration-ci", 
+            "text": "Continuous Integration is a software development process\nin which all development work is integrated at a predefined time\nor event and the resulting work is automatically tested and built.\nThe idea is that development errors are identified very early in the process.   Setting up a CI server is the low hanging fruit when it comes to ensuring the quality of your releases. A CI server runs a pre-scheduled build of your system followed by running the test suite. The code is normally built and tested on every commit that is pushed to the  master  branch. This means that any breaking changes can be spotted as soon as possible.", 
+            "title": "Continuous Integration (CI)"
+        }, 
+        {
+            "location": "/development/devops/#benefits-of-ci", 
+            "text": "Bugs are detected as fast as possible. They are also easier to track down as breaking commit becomes obvious.  Fixing bugs becomes much easier. They are spotted early, therefore the related code will still be fresh in your mind.  If a bug emerges and the code needs to be reverted to a bug-free state not many changes will be lost.", 
+            "title": "Benefits of CI"
+        }, 
+        {
+            "location": "/development/devops/#deployment", 
+            "text": "Automating the deployment process brings huge benefits in our Agile world. As a general principle any process that can be automated, should be automated. This to reduce cognitive load on our brains and free up our energies for more creative tasks.", 
+            "title": "Deployment"
+        }, 
+        {
+            "location": "/development/devops/#benefits-of-automated-deployment", 
+            "text": "More frequent releases due to decrease of errors in the deployment process.  Anyone in a team can deploy the software. If only one person knows the deployment process then releases will be halted whenever they are away. Automated deployment means this knowledge is captured in the system, not in an individual's brain.  More time can be spent coding, less on monotonous admin style tasks.", 
+            "title": "Benefits of Automated deployment"
+        }, 
+        {
+            "location": "/development/devops/#references", 
+            "text": "Wikidedia on CI  DWYL guide on setting up Travis", 
+            "title": "References"
         }, 
         {
             "location": "/development/documentation/", 
@@ -122,13 +167,38 @@
         }, 
         {
             "location": "/development/testing/", 
-            "text": "Testing", 
+            "text": "Testing\n\n\nTesting forms a core part of our work and philosophy at CAST\n\n\nAll work (from product development through to tech) should be guided and backed up by tests (\ntest driven\n)\n\n\nWhy testing?\n\n\n\n\nProjects without tests often become more and more fragile as they grow\n\n\nChanging one thing can often break multiple other things\n\n\nAdding tests makes these breakages obvious and easier to diagnose\n\n\nDefining tests help clarify your intent (what do I want this code to \ndo\n?)\n\n\nA projects's tests are a form of documentation\n\n\nOther developers coming onto the project can look at the tests and see exactly what the software is supposed to do\n\n\n\n\nTDD\n\n\nTDD (test driven development) is a discipline where a test is written \nfirst\n and \nthen\n code is written to make that test pass. The process is often described in three steps: red, green, refactor:\n\n\n\n\nwrite the test and watch it fail\n\n\nmake it pass by adding code\n\n\nrefactor the code after each cycle (rinse and repeat)\n\n\n\n\n\n\n\n\ntdd leads to much more robust software\n\n\nwe don't write unnecessary code that doesn't contribute to functionality\n\n\nwhat you \nwant\n the software to do is what drives the code, not the other way round\n\n\n\n\nWe should strive wherever possible to employ this discipline\n\n\nUnit Testing\n\n\nUnit tests are an ideal way to gradually build complex functionality out of smaller pieces\n\n\n\n\nUnit tests assert that small pieces of the software behave in certain ways\n\n\nUnit tests encourage the writing of modular code which improves code quality and reusability.\n\n\nWe should strive for no commits without unit tests (where functionality is being added)\n\n\n\n\nEnd to End testing\n\n\nEnd to end tests (also known as integration tests) should be used to help validate that complete functionality of a piece of software behaves as we want it to\n\n\n\n\nE2e tests allow a more \"user centred\" perspective (the test is checking what the user should \"see\" at each point)\n\n\nA great way of thinking about how to write e2e test is to consider how the user will \"behave\" at each point\n\n\nIn this sense the tests should be \n\"behaviour driven\"\n (behaviour driven development - BDD)\n\n\nE2e tests can be used as \"acceptance tests\" for user stories (i.e. they validate that the user can complete a task with our software)\n\n\n\n\n# an example of an e2e test in Ruby\n\nscenario 'When I forget my password,\n          I want to be able to reset it,\n          so I can access my account' do\n  helper.request_reset\n  expect(ActionMailer::Base.deliveries.last.subject)\n    .to eq 'Reset your password - Beehive'\n  expect(current_path).to eq sign_in_path\n  helper.set_new_password\n  expect(current_path).to eq sign_in_path\nend\n\n\n\n\nReferences\n\n\n\n\ndwyl learn tdd\n\n\n5 common misconceptions about test driven development and unit tests\n\n\nbehaviour driven development\n\n\nwhen tdd doesn't work\n\n\nacceptance test driven development\n\n\ndwyl learn nightwatch", 
             "title": "Testing"
         }, 
         {
             "location": "/development/testing/#testing", 
-            "text": "", 
+            "text": "Testing forms a core part of our work and philosophy at CAST  All work (from product development through to tech) should be guided and backed up by tests ( test driven )", 
             "title": "Testing"
+        }, 
+        {
+            "location": "/development/testing/#why-testing", 
+            "text": "Projects without tests often become more and more fragile as they grow  Changing one thing can often break multiple other things  Adding tests makes these breakages obvious and easier to diagnose  Defining tests help clarify your intent (what do I want this code to  do ?)  A projects's tests are a form of documentation  Other developers coming onto the project can look at the tests and see exactly what the software is supposed to do", 
+            "title": "Why testing?"
+        }, 
+        {
+            "location": "/development/testing/#tdd", 
+            "text": "TDD (test driven development) is a discipline where a test is written  first  and  then  code is written to make that test pass. The process is often described in three steps: red, green, refactor:   write the test and watch it fail  make it pass by adding code  refactor the code after each cycle (rinse and repeat)     tdd leads to much more robust software  we don't write unnecessary code that doesn't contribute to functionality  what you  want  the software to do is what drives the code, not the other way round   We should strive wherever possible to employ this discipline", 
+            "title": "TDD"
+        }, 
+        {
+            "location": "/development/testing/#unit-testing", 
+            "text": "Unit tests are an ideal way to gradually build complex functionality out of smaller pieces   Unit tests assert that small pieces of the software behave in certain ways  Unit tests encourage the writing of modular code which improves code quality and reusability.  We should strive for no commits without unit tests (where functionality is being added)", 
+            "title": "Unit Testing"
+        }, 
+        {
+            "location": "/development/testing/#end-to-end-testing", 
+            "text": "End to end tests (also known as integration tests) should be used to help validate that complete functionality of a piece of software behaves as we want it to   E2e tests allow a more \"user centred\" perspective (the test is checking what the user should \"see\" at each point)  A great way of thinking about how to write e2e test is to consider how the user will \"behave\" at each point  In this sense the tests should be  \"behaviour driven\"  (behaviour driven development - BDD)  E2e tests can be used as \"acceptance tests\" for user stories (i.e. they validate that the user can complete a task with our software)   # an example of an e2e test in Ruby\n\nscenario 'When I forget my password,\n          I want to be able to reset it,\n          so I can access my account' do\n  helper.request_reset\n  expect(ActionMailer::Base.deliveries.last.subject)\n    .to eq 'Reset your password - Beehive'\n  expect(current_path).to eq sign_in_path\n  helper.set_new_password\n  expect(current_path).to eq sign_in_path\nend", 
+            "title": "End to End testing"
+        }, 
+        {
+            "location": "/development/testing/#references", 
+            "text": "dwyl learn tdd  5 common misconceptions about test driven development and unit tests  behaviour driven development  when tdd doesn't work  acceptance test driven development  dwyl learn nightwatch", 
+            "title": "References"
         }, 
         {
             "location": "/development/tooling/", 

@@ -152,15 +152,26 @@
     
       
       
+  <li class="md-nav__item">
+    
+      <a href="../../data-standards/" title="Data standards" class="md-nav__link">
+        Data standards
+      </a>
+    
+  </li>
+
+    
+      
+      
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
-    <label class="md-nav__link" for="nav-3">
+    <label class="md-nav__link" for="nav-4">
       About
     </label>
     <nav class="md-nav" data-md-component="collapsible">
-      <label class="md-nav__title" for="nav-3">
+      <label class="md-nav__title" for="nav-4">
         About
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -197,13 +208,13 @@
       
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
-    <label class="md-nav__link" for="nav-4">
+    <label class="md-nav__link" for="nav-5">
       Development
     </label>
     <nav class="md-nav" data-md-component="collapsible">
-      <label class="md-nav__title" for="nav-4">
+      <label class="md-nav__title" for="nav-5">
         Development
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -306,6 +317,10 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Testing
+      </label>
+    
     <a href="./" title="Testing" class="md-nav__link md-nav__link--active">
       Testing
     </a>
@@ -316,6 +331,46 @@
   
     
   
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-testing" title="Why testing?" class="md-nav__link">
+    Why testing?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tdd" title="TDD" class="md-nav__link">
+    TDD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing" title="Unit Testing" class="md-nav__link">
+    Unit Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-to-end-testing" title="End to End testing" class="md-nav__link">
+    End to End testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
     
@@ -355,6 +410,46 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-testing" title="Why testing?" class="md-nav__link">
+    Why testing?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tdd" title="TDD" class="md-nav__link">
+    TDD
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing" title="Unit Testing" class="md-nav__link">
+    Unit Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-to-end-testing" title="End to End testing" class="md-nav__link">
+    End to End testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -367,6 +462,69 @@
               
                 
                 <h1 id="testing">Testing</h1>
+<p>Testing forms a core part of our work and philosophy at CAST</p>
+<p>All work (from product development through to tech) should be guided and backed up by tests (<em>test driven</em>)</p>
+<h3 id="why-testing">Why testing?</h3>
+<ul>
+<li>Projects without tests often become more and more fragile as they grow</li>
+<li>Changing one thing can often break multiple other things</li>
+<li>Adding tests makes these breakages obvious and easier to diagnose</li>
+<li>Defining tests help clarify your intent (what do I want this code to <em>do</em>?)</li>
+<li>A projects's tests are a form of documentation</li>
+<li>Other developers coming onto the project can look at the tests and see exactly what the software is supposed to do</li>
+</ul>
+<h3 id="tdd">TDD</h3>
+<p>TDD (test driven development) is a discipline where a test is written <em>first</em> and <em>then</em> code is written to make that test pass. The process is often described in three steps: red, green, refactor:</p>
+<ul>
+<li>write the test and watch it fail</li>
+<li>make it pass by adding code</li>
+<li>refactor the code after each cycle (rinse and repeat)</li>
+</ul>
+<p><img alt="red-green-refactor" src="https://camo.githubusercontent.com/d32708d5ddec97f67800fb1982f57b52b95b2475/687474703a2f2f692e696d6775722e636f6d2f525165324e51542e6a7067" /></p>
+<ul>
+<li><a href="https://medium.com/@fagnerbrack/why-test-driven-development-4fb92d56487c#.6htslag7v">tdd leads to much more robust software</a></li>
+<li>we don't write unnecessary code that doesn't contribute to functionality</li>
+<li>what you <em>want</em> the software to do is what drives the code, not the other way round</li>
+</ul>
+<p>We should strive wherever possible to employ this discipline</p>
+<h3 id="unit-testing">Unit Testing</h3>
+<p>Unit tests are an ideal way to gradually build complex functionality out of smaller pieces</p>
+<ul>
+<li>Unit tests assert that small pieces of the software behave in certain ways</li>
+<li>Unit tests encourage the writing of modular code which improves code quality and reusability.</li>
+<li>We should strive for no commits without unit tests (where functionality is being added)</li>
+</ul>
+<h3 id="end-to-end-testing">End to End testing</h3>
+<p>End to end tests (also known as integration tests) should be used to help validate that complete functionality of a piece of software behaves as we want it to</p>
+<ul>
+<li>E2e tests allow a more "user centred" perspective (the test is checking what the user should "see" at each point)</li>
+<li>A great way of thinking about how to write e2e test is to consider how the user will "behave" at each point</li>
+<li>In this sense the tests should be <em>"behaviour driven"</em> (behaviour driven development - BDD)</li>
+<li>E2e tests can be used as "acceptance tests" for user stories (i.e. they validate that the user can complete a task with our software)</li>
+</ul>
+<pre><code class="rb"># an example of an e2e test in Ruby
+
+scenario 'When I forget my password,
+          I want to be able to reset it,
+          so I can access my account' do
+  helper.request_reset
+  expect(ActionMailer::Base.deliveries.last.subject)
+    .to eq 'Reset your password - Beehive'
+  expect(current_path).to eq sign_in_path
+  helper.set_new_password
+  expect(current_path).to eq sign_in_path
+end
+</code></pre>
+
+<h3 id="references">References</h3>
+<ul>
+<li><a href="https://github.com/dwyl/learn-tdd">dwyl learn tdd</a></li>
+<li><a href="https://medium.com/javascript-scene/5-common-misconceptions-about-tdd-unit-tests-863d5beb3ce9#.8s3ciqmio">5 common misconceptions about test driven development and unit tests</a></li>
+<li><a href="https://www.agilealliance.org/glossary/bdd/">behaviour driven development</a></li>
+<li><a href="https://8thlight.com/blog/uncle-bob/2014/04/30/When-tdd-does-not-work.html">when tdd doesn't work</a></li>
+<li><a href="https://www.agilealliance.org/glossary/atdd/">acceptance test driven development</a></li>
+<li><a href="https://github.com/dwyl/learn-nightwatch">dwyl learn nightwatch</a></li>
+</ul>
               
             </article>
           </div>
