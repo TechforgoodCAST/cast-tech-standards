@@ -12,6 +12,18 @@ won't be added automatically to the contents).
 
 Most recent deployment: <https://techforgoodcast.github.io/cast-tech-standards/>
 
+## Installation (macOs)
+
+[Setup Guide](http://squidfunk.github.io/mkdocs-material/getting-started/)
+
+Make sure you have `Python` and `pip` installed and then run following commands
+
+`pip install mkdocs && mkdocs --version`
+`pip install pygments`
+`pip install pymdown-extensions`
+`pip install mkdocs-material --user`
+
+
 ## Run local server
 
     mkdocs serve
